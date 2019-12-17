@@ -1,2 +1,114 @@
 # 083testnet-data
+
 The Qitmeer 0.8.3 testnet data backup for the reward verification 
+
+## All rewards & reward ranking 
+
+```bash
+$ ./check-block-reward.sh -l
+TmgWMUZtDcBe36bxXG8FBCu8C3KFuy3F9jC 9868 21320 PMEER = (9868/30) * 65
+TmPvQaAAtHWDhzGdsd8gQ2q3rkuzfKJeaws 7990 17290 PMEER = (7990/30) * 65
+TmPK4WJRLqPjhjGEpVmofZ19apjD2rsnSoF 7777 16835 PMEER = (7777/30) * 65
+TmUBfuZVNB4DemaPaqVsLofYiJJjbbf6226 5937 12805 PMEER = (5937/30) * 65
+Tmc87uCQXqUaa7UPA6ESwe7P9L6ZV921UAh 4808 10400 PMEER = (4808/30) * 65
+TmUquGBdL1PgCuq7t29yJQ6DLC2teb1U8AS 2801 6045 PMEER = (2801/30) * 65
+TmcwnXt3d3bMxp7p2KY4jWJnZ3RALX8cABH 2237 4810 PMEER = (2237/30) * 65
+TmjM2Vrf8tV3hmpKLkqyd5cNyL5JLisDSm9 2150 4615 PMEER = (2150/30) * 65
+TmRZH8a4nQhBkfYnq28x1HdTNQ5wMJLWPh4 1945 4160 PMEER = (1945/30) * 65
+TmYL7UUoFQNkZedhYWP4SbhtHtYVzgLjmis 1917 4095 PMEER = (1917/30) * 65
+TmTr6FyJeBWq8LHdj1ZbH84nKxDiz3tQGJG 1457 3120 PMEER = (1457/30) * 65
+TmhBGnH35LSwPecZ9tCqL88UTfo28Q3PUi6 1346 2860 PMEER = (1346/30) * 65
+TmfLjksDFTTwaPiNv6zBTGS8tkqMt6ci2Cj 1337 2860 PMEER = (1337/30) * 65
+TmYphgQo9AtCAoyeZqFMY7qRdkJTtSHh2TD 1281 2730 PMEER = (1281/30) * 65
+TmdynELSnV85MivyKsHWGjh3d6gSyDxjooD 1244 2665 PMEER = (1244/30) * 65
+TmRXN84v3XB2E1HZmCuTSHgCeYRs3MV7q9A 1160 2470 PMEER = (1160/30) * 65
+TmZkkmz8t1KR8uvvnuHcXr7LMXs1AArTbHX 1032 2210 PMEER = (1032/30) * 65
+TmUWxxq66VCdAJtf5kxPVGwHN8LzXyqRk8L 860 1820 PMEER = (860/30) * 65
+Tmcubtx2XRRQMoBa4Cb2LHJhWnR1TLXEEjB 843 1820 PMEER = (843/30) * 65
+TmUvv3cYB4TDtqSo47kKBvkvGn7JjgWwuGe 766 1625 PMEER = (766/30) * 65
+TmfEem5qkmqggTFBshbwPyTTqNERgbD4EPn 737 1560 PMEER = (737/30) * 65
+TmQ67Hr2hfHpYEU4ThKPRnVE62h8aBMY3DT 734 1560 PMEER = (734/30) * 65
+TmkuVRGjxor5iNJKThmkoRMKe4cBX8DRc6e 697 1495 PMEER = (697/30) * 65
+Tme9dVJ4GeWRninBygrA6oDwCAGYbBvNxY7 688 1430 PMEER = (688/30) * 65
+TmhSc9QZsruv8PCeDgBsY3ew5EPbrgUrAhY 647 1365 PMEER = (647/30) * 65
+TmRxANuoKN9xPvtAaLe1SA77B279pQC9Wbo 647 1365 PMEER = (647/30) * 65
+TmjTooPeHr27TLkJzvXM9NabbyTEqXY2Bay 628 1300 PMEER = (628/30) * 65
+TmcWTAY3mM7pQEzsWudtRnZNmHuWNgdhfeC 603 1300 PMEER = (603/30) * 65
+Tmj8PCEms1fAT9SYEWuxfHjbppataAM7rP2 420 910 PMEER = (420/30) * 65
+Tmgw6ttQsrWRsWfXPw6BgWRcviLarZUca48 384 780 PMEER = (384/30) * 65
+Tmgi1VwHrAG9bb9hXSeEUv76uchPQGgt5pj 364 780 PMEER = (364/30) * 65
+TmWMuY9q5dUutUTGikhqTVKrnDMG34dEgb5 355 715 PMEER = (355/30) * 65
+TmjpmECxxekaLjZA61f6T32cmmPmvjUr7iD 340 715 PMEER = (340/30) * 65
+TmRzxNU7QxxSq9ErvWPZ9bjqABchVehSYUL 307 650 PMEER = (307/30) * 65
+TmRShC5EEhKp9njDyH465xDdpoQY4bA3DpW 282 585 PMEER = (282/30) * 65
+TmUtMdS8gd6QCCVeQvJ3kk1Ah28c59vw2SE 267 520 PMEER = (267/30) * 65
+TmZjUjatt9yixCxWX7bwyB2DbM8PpPWSLPb 237 455 PMEER = (237/30) * 65
+TmkVvov4MEgCLKjty4D5zFevy4cftaiRwCW 203 390 PMEER = (203/30) * 65
+Tmin7cp5Bn2bTfpFq9my6bsecQGJdTHcFCg 180 390 PMEER = (180/30) * 65
+TmcCoVxM457qo1dtchcjsm9z8rr7YCedAKo 123 260 PMEER = (123/30) * 65
+TmgpqUCHq2ibCTKsn2hDxqQ5i7RyyaqrA66 102 195 PMEER = (102/30) * 65
+TmdbCb3MMdK8AxW1P74oPTZfEa4YCq14wLV 90 195 PMEER = (90/30) * 65
+TmeGMabPcGPZLBXWXAuD9o1oEyfXU3ucMKh 63 130 PMEER = (63/30) * 65
+TmVPSevet6ejiFVfYiuhi5CDhLhqLPPVudZ 39 65 PMEER = (39/30) * 65
+Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 31 65 PMEER = (31/30) * 65
+The totol reward is :  145730 PMEER
+```
+
+##  Check reward details by address
+
+```
+$ ./check-block-reward.sh Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j
+-------------------------------------0--------------------------------
+The valid blocks are blue blocks (isblue=1) and their txvalid=true :
+43250 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 00bda281af89c7ab12af8ce1a813df4af7feefa489d0f533a10369882c13042d true 32667 1
+43296 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0d22f5a1a3cf29f932a2d908d7316860ef566522d89e728481588080606c882e true 32637 1
+43491 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 1a43061ce2191fdef1554c2a044120d3d1d473dbe8717a73150a5fd548dfc780 true 32543 1
+43573 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0f9510d883b286978459cea92ef8bec1e9fb5e74a8a22ce25b801cd0beda6ab2 true 32510 1
+43902 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 2285e7e4638ce70cf4e9a451b607146708b389e3c27d39ef761b6b39b7264ba2 true 32395 1
+43926 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 1a2212fec82e21938b6351a1e395454189c629445220e6b865095e734465dc65 true 32388 1
+55336 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0b68034f45fc337183cd7e8aec9d9d36b1eaa0a129623bf8ab0e5dadae20d64a true 28247 1
+55485 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0b636a9f7a73cff8f525e8661809b1bfaee0531f70e9dabc5a4f3a3df750a0b2 true 28186 1
+56129 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0b92016111091f8c32cf5584734563ef8810ebfd120edd3dbcd22c683c2a55b7 true 27928 1
+56146 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 01d6c83860bc9155167994415162bf55f430dfdc8b5b9a00516e9eb14c73fa18 true 27922 1
+56335 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0ebe980affe1d01aa1beaadf3aaf991d725db8a2a6091ebf3b573902489c488f true 27851 1
+56478 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 034ccc6809fb2595ccc32ff26a6cc1458cb28ace487fefbe78f152b4588654bc true 27795 1
+56867 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 03a88a87c6bebacd70825e83f664d2657f7d23adabc5b4e5e1e023d255ce5974 true 27630 1
+56875 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0ddc25ec720b328e394d23b374c097d57834acb7cd67fd1375681ca373344000 true 27627 1
+57871 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0db705efce72e00b763642dcea57e41b32af49dce912f722507ec6c889d1c674 true 27215 1
+58328 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0279635d668ef250e18c1761d7389dbc713c7ea319016be2efd687cba19de1cb true 27039 1
+58388 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 13282947f257690b045ac08bdfcb2f68b451bd1d42863fe74494f8878b526183 true 27021 1
+58668 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0699637e83524fe7af538e32a904e3213c00e4cf7ad9ca5787bef8c242ccf4cd true 26898 1
+58759 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 052b664125769eb03b7a8d690940286bba6c459ed5a4ce8c59475ce1d3f755cc true 26859 1
+58883 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 09812b764b5c650c8f666f186ab82a1be285ee0b5be2bc429639c8be67fbb43d true 26805 1
+69289 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 12621b710cf19b81a238fb3a19c659d1246ed9d29714595238fe790fdb1ebe6d true 22658 1
+69757 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 065403104479deffc2fc1f49c994f512afecfb55aad65c9bb05d1b9ddc97fb6a true 22480 1
+69811 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0f59b2ae1bbf569c4e953da6f3d90825265fb8078fffea8bee6c8f7aca0e3e61 true 22463 1
+70066 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0098c2b799704815896e5bec034180c85409752ff7264b883857cb790c10d92d true 22371 1
+70155 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 150a23af88052398643c0bfadbaf5a70a8df9231f7888022a5b09c81e3b68828 true 22343 1
+70859 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0aab31753d705c2d31f77c725a4837251387349da6e42687306c61796cc30e21 true 22100 1
+71435 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 000c25fc06644adc135b0322154242f34327d8ef94010085abc567d97a7a8876 true 21886 1
+71745 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 10c286c4a5a4a3bb25527002dac426daccafda3d3fcd585cc06cd1899d54922c true 21788 1
+71970 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0bc924fa05418d7aec6811c2becaf821ae55ef3ef32173773bee179e440bb8bd true 21686 1
+72033 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 11009814256c5f92ed7cd21d49fa2550e8f2f3ee4a8fe7f9bf5898639a700f61 true 21658 1
+72188 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 072e3059764d36ac208f78fcdca3988995da090b194929e4838328390333d3e5 true 21593 1
+----------------------------------------------------------------------
+The invalid blocks are txvalid=false blocks or red blocks (isblue=0) :
+70514 Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j 0064339ef23f835d9690825590b36c8cbf4c96565f208ec7a36b70e6ad0dc003 true 22218 0
+-----------------------------------------------------------------
+The Block Reward for address Tmbz9mNaiuWKJdvpid9XQLHbFcUXPHSFY3j
+The valid block   : 31
+The invalid block : 1
+The total rewards : 65 PMEER = (31/30) * 65
+```
+
+## Build Data by yourself (WARNING : make sure u know what u are doing)
+
+Steps how to generate the date file `` by yourself.
+
+1. run `install.sh` (install the qitmeer 0.8.3)
+2. run `start.sh` from an terminal (start the qitmeer 0.8.3 node with the testdata on the background)
+3. run `gen-data.sh -f` from another terminal (you might want to backup your old data file before you generate new data file.) 
+4. wait the `gen-data.sh` finished. 
+5. `check-block-rewad.sh` with data generated by yourself is ready to use.
+
+Note: you can use your `testnet` data directly by copying the your `testnet` folder into the folder to omit the step `1`  
