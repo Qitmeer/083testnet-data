@@ -20,13 +20,11 @@ if [ -z $1 ]; then
 fi
 
 function valid_block() {
-  cat $DATA|grep true|grep \ 1$
+  cat $DATA|grep true
 }
 
 function invalid_block() {
-  local addr=$1
-  cat $DATA|grep false$
-  cat $DATA|grep true|grep \ 0$
+  cat $DATA|grep false
 }
 if [ "$1" == "-l" ]; then
   FILE=./temp_reward_sum.txt
@@ -44,7 +42,7 @@ if [ "$1" == "-l" ]; then
 elif [ "${1:0:2}" == "Tm" ] ; then
   addr=$1
   count_valid=`echo $(valid_block|grep $addr|wc -l)`
-  echo "-------------------------------------0--------------------------------"
+  echo "----------------------------------------------------------------------"
   echo "The valid blocks are blue blocks (isblue=1) and their txvalid=true : "
   valid_block|grep $addr
   echo "----------------------------------------------------------------------"
